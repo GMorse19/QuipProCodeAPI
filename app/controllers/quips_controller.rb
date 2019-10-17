@@ -1,6 +1,6 @@
-class QuipsController < ApplicationController
+class QuipsController < ProtectedController
   before_action :set_quip, only: [:show, :update, :destroy]
-
+  # skip_before_action :authenticate
   # GET /quips
   def index
     @quips = Quip.all
@@ -15,7 +15,7 @@ class QuipsController < ApplicationController
 
   # POST /quips
   def create
-    @quip = Quip.new(quip_params)
+    @quip = current_user.quips.build(quip_params)
 
     if @quip.save
       render json: @quip, status: :created, location: @quip
@@ -46,6 +46,6 @@ class QuipsController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def quip_params
-      params.require(:quip).permit(:author, :mood, :user_id)
+      params.require(:quip).permit(:author, :mood, :user_id, :content)
     end
 end
