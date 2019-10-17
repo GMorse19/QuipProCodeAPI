@@ -1,6 +1,6 @@
 class QuipsController < ProtectedController
   before_action :set_quip, only: [:show, :update, :destroy]
-  # skip_before_action :authenticate
+  skip_before_action :authenticate
   # GET /quips
   def index
     @quips = Quip.all
