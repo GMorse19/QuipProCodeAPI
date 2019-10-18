@@ -1,5 +1,7 @@
+# frozen_string_literal: true
+
 class QuipsController < ProtectedController
-  before_action :set_quip, only: [:show, :update, :destroy]
+  before_action :set_quip, only: %i[show update destroy]
   # skip_before_action :authenticate
   # GET /quips
   def index
@@ -41,7 +43,7 @@ class QuipsController < ProtectedController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_quip
-      @quip = Quip.find(params[:id])
+      @quip = current_user.quips.find(params[:id])
     end
 
     # Only allow a trusted parameter "white list" through.
