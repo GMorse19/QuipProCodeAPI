@@ -1,10 +1,14 @@
-## Ruby on Rails for Quip Pro Code
+# Ruby on Rails for Quip Pro Code
 
 This is an API I built for my second project, Quip Pro Code, at General Assembly in Boston, MA.
 
 This API was built to recieve data for one resource with multiple parameters.
 
-# Planning
+## Resources
+
+Ruby on Rails
+
+## Planning
 
 I began the planning for this project by creating
 user stories accompanied by wireframes. After I completed those, I drew up my <a href="https://imgur.com/RtQedZ1">ERD</a>.
@@ -15,13 +19,13 @@ This was the most challenging part of the project. I needed to make sure that al
 
 When I was able to get all of my curl scripts to run according to plan, I deployed my server and began the process of building my front end.
 
-# Unsolved Problems
+## Unsolved Problems
 
 I'd like to grow this project to accept more parameters and resources in the future.
 
 
 
-# Links
+## Links
 
 Youn can find my API <a href="https://github.com/GMorse19/project-2-api.git">here</a>
 
