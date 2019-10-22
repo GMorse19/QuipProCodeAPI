@@ -23,12 +23,12 @@ When I was able to get all of my curl scripts to run according to plan, I deploy
 
 I'd like to grow this project to accept more parameters and resources in the future.
 
-
+I would like to work on writing tests.
 
 ## Links
 
-Youn can find my API <a href="https://github.com/GMorse19/project-2-api.git">here</a>
+Youn can find Quip Pro Code <a href="https://gmorse19.github.io/project-2-browser-GMorse/">here</a>
 
-You can find my Browser <a href="https://gmorse19.github.io/project-2-browser-GMorse/">here</a>.
+You can find my Browser <a href="https://github.com/GMorse19/project-2-browser-GMorse.git">here</a>.
 
 You can find my ERD <a href="https://imgur.com/RtQedZ1">here</a>.
