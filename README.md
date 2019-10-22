@@ -27,7 +27,7 @@ I would like to work on writing tests.
 
 ## Links
 
-Youn can find Quip Pro Code <a href="https://gmorse19.github.io/project-2-browser-GMorse/">here</a>
+You can find Quip Pro Code <a href="https://gmorse19.github.io/project-2-browser-GMorse/">here</a>
 
 You can find my Browser <a href="https://github.com/GMorse19/project-2-browser-GMorse.git">here</a>.
 
