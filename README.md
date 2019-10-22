@@ -7,6 +7,8 @@ This API was built to recieve data for one resource with multiple parameters.
 ## Resources
 
 Ruby on Rails
+HTML
+Shell
 
 ## Planning
 
