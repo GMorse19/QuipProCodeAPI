@@ -7,6 +7,8 @@ This API was built to recieve data for one resource with multiple parameters.
 ## Resources
 
 Ruby on Rails
+HTML
+Shell
 
 ## Planning
 
@@ -27,8 +29,8 @@ I'd like to grow this project to accept more parameters and resources in the fut
 
 ## Links
 
-Youn can find my API <a href="https://github.com/GMorse19/project-2-api.git">here</a>
+You can find Quip Pro Code <a href="https://gmorse19.github.io/project-2-browser-GMorse/">here</a>
 
-You can find my Browser <a href="https://gmorse19.github.io/project-2-browser-GMorse/">here</a>.
+You can find my Browser <a href="https://github.com/GMorse19/project-2-browser-GMorse.git">here</a>.
 
 You can find my ERD <a href="https://imgur.com/RtQedZ1">here</a>.
