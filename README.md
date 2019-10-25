@@ -28,6 +28,8 @@ I'd like to grow this project to accept more parameters and resources in the fut
 
 
 ## Links
+### ERD diagram
+![ERD diagram](./img/ERD.png)
 
 You can find Quip Pro Code <a href="https://gmorse19.github.io/project-2-browser-GMorse/">here</a>
 
